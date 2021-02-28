@@ -1,0 +1,24 @@
+---
+NY-SW-01:
+  hostname: 192.168.10.37
+  groups:
+    - cisco
+    - switches
+  data:
+    site: NY
+
+NE-RTR-01:
+  hostname: 192.168.10.38
+  groups:
+    - cisco
+    - routers
+  data:
+    site: NE
+
+OR-SW-01:
+  hostname: 192.168.10.36
+  groups:
+    - cisco
+    - switches
+  data:
+    site: OR

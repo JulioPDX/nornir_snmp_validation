@@ -1,0 +1,11 @@
+---
+- get_snmp_information:
+    community:
+      myreadonly:
+        acl: N/A
+        mode: ro
+      mysecurestring:
+        acl: N/A 
+        mode: rw
+    contact: JulioPDX
+    location: mylocation
